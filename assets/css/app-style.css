@@ -97,6 +97,20 @@
     width: 100%;
 }
 
+.blue {
+    color: #00aeef;
+}
+
+.st30 {
+    margin-top: 30px;
+}
+
+.sb30 {
+    margin-bottom: 30px;
+}
+
+
+
 .line {
     background: #00aeef;
     width: 80%;
@@ -105,6 +119,9 @@
     display: block;
     margin: 0 auto;
     position: relative;
+    -webkit-animation: linear infinite alternate;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: spanLine;
 }
 
 .line:before, .line:after {
@@ -138,6 +155,12 @@
     0% { right: 0px;}
     50% { right: -10px;}
     100%{ right: -20px;}
+}
+
+@-webkit-keyframes spanLine {
+    0% { width: 50%;}
+    50% { width: 75%;}
+    100%{ width: -00%;}
 }
 
 
