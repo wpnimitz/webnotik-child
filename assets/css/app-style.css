@@ -332,6 +332,9 @@
     margin-right: 10px;
 }
 
+.button-center {
+    text-align: center;
+}
 
 .et_pb_blurb_content {
     max-width: 100% !important;
