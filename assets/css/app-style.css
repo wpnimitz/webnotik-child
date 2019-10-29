@@ -193,8 +193,11 @@
 
 
 /** Module Default Styling **/
-.entry-content .et_pb_text_inner p,
-.entry-content .et_pb_text_inner li {
-    line-height: 1.9em;
+.button-inline .et_pb_button_module_wrapper {
+    display: inline-block;
+}
+
+.button-inline .et_pb_button {
+    margin-right: 10px;
 }
 
