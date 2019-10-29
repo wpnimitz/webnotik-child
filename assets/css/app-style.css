@@ -135,9 +135,9 @@
 }
 
 @-webkit-keyframes runRight {
-    0% { right: -20px;}
+    0% { right: 0px;}
     50% { right: -10px;}
-    100%{ right: 0px;}
+    100%{ right: -20px;}
 }
 
 
