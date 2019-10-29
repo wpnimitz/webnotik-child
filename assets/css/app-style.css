@@ -109,6 +109,14 @@
     margin-bottom: 30px;
 }
 
+.st15 {
+    margin-top: 15px;
+}
+
+.sb15 {
+    margin-bottom: 15px;
+}
+
 .centerCenter {
     display: flex;
     align-items: center;
