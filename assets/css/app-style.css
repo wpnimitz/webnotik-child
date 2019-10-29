@@ -166,14 +166,13 @@
 
 .quote-box:after {
     content: "";
-    background: url(.img/testimonail-dot.png);
+    background: url(../img/testimonail-dot.png) no-repeat;
     width: 60px;
     height: 60px;
     top: -30px;
     left: 6%;
     position: absolute;
 }
-
 
 .line {
     background: #00aeef;
