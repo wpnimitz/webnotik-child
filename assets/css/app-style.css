@@ -269,6 +269,10 @@
     display: none;
 }
 
+.et_pb_scroll_top.et-pb-icon {
+    background: rgb(0, 174, 239);
+}
+
 
 
 /** Animations **/
