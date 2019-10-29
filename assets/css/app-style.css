@@ -265,6 +265,12 @@
     }
 }
 
+
+.et_menu_container {
+    padding: 10px;
+    box-sizing: content-box;
+}
+
 #main-footer {
     display: none;
 }
