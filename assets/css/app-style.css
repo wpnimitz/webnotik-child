@@ -180,9 +180,9 @@
     background: url(https://testingwebsite102.com/wp-content/uploads/2019/10/background3.png) no-repeat !important;
     background-size: cover;
     top: -100%;
-    left: -100%;
-    right: -100%;
-    bottom: -100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
     -webkit-animation: spinBackground 60s linear infinite;
     -moz-animation: spinBackground 60s linear infinite;
     animation: spinBackground 120s linear infinite;
