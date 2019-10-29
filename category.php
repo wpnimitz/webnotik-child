@@ -1,9 +1,4 @@
-<?php
-
-get_header();
-
-?>
-
+<?php get_header(); ?>
 <div id="main-content">
 	<div class="ep_pb_section et_pb_gutters1 webnotik-category">
 	 	<div class="et_pb_row et_pb_gutters2">
