@@ -265,6 +265,10 @@
     }
 }
 
+#main-footer {
+    display: none;
+}
+
 
 
 /** Animations **/
