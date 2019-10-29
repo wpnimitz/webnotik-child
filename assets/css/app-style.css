@@ -125,7 +125,7 @@
 
 .line:after {
     right: -10px !important;
-    -webkit-animation-name: runLeft;
+    -webkit-animation-name: runRight;
 }
 
 @-webkit-keyframes runLeft {
