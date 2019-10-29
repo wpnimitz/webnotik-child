@@ -114,24 +114,32 @@
     position: absolute;
     background: #00aeef;
     z-index: 2;
+    -webkit-animation:linear infinite alternate;
+    -webkit-animation-duration: 0.5s;
 }
 
 .line:before {
     left: -10px !important;
-    -webkit-animation:linear infinite alternate;
-    -webkit-animation-name: run;
-    -webkit-animation-duration: 5s;
+    -webkit-animation-name: runLeft;   
 }
 
 .line:after {
     right: -10px !important;
+    -webkit-animation-name: runLeft;
 }
 
-@-webkit-keyframes run {
-    0% { left: 0;}
-    50%{ left : 100%;}
-    100%{ left: 0;}
+@-webkit-keyframes runLeft {
+    0% { left: -20px;}
+    50% { left: -10px;}
+    100%{ left: 0px;}
 }
+
+@-webkit-keyframes runRight {
+    0% { right: -20px;}
+    50% { right: -10px;}
+    100%{ right: 0px;}
+}
+
 
 
 
