@@ -164,6 +164,16 @@
     box-shadow: 7px 7px 12px rgba(0,0,0,0.07);
 }
 
+.quote-box:after {
+    content: "";
+    background: url(.img/testimonail-dot.png);
+    width: 60px;
+    height: 60px;
+    top: -30px;
+    left: 6%;
+    position: absolute;
+}
+
 
 .line {
     background: #00aeef;
