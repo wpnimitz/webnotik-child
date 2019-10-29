@@ -92,6 +92,12 @@
 
 
 /** OTHER CSS **/
+.cta a {
+    background: #00aeef;
+    padding: 10px 20px !important;
+    border-radius: 3px;
+}
+
 .block {
     display: block;
     width: 100%;
