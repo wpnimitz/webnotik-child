@@ -177,15 +177,15 @@
 .animateBG:before {
     position: absolute;
     content: "";
-    background: url(https://testingwebsite102.com/wp-content/uploads/2019/10/background3.png)!important;
+    background: url(https://testingwebsite102.com/wp-content/uploads/2019/10/background3.png) no-repeat !important;
     background-size: cover;
     top: -100%;
     left: -100%;
     right: -100%;
     bottom: -100%;
-    -webkit-animation: spinBackground 10s linear infinite;
-    -moz-animation: spinBackground 10s linear infinite;
-    animation: spinBackground 10s linear infinite;
+    -webkit-animation: spinBackground 60s linear infinite;
+    -moz-animation: spinBackground 60s linear infinite;
+    animation: spinBackground 120s linear infinite;
 }
 
 
