@@ -182,6 +182,12 @@
     overflow: hidden;
 }
 
+@media screen (min-width: 1280px) {
+    .browser .et_pb_image_wrap {
+        max-height: 60vh;
+    }
+}
+
 
 
 /** Animations **/
