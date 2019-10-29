@@ -178,14 +178,15 @@
     position: absolute;
     content: "";
     background: url(https://testingwebsite102.com/wp-content/uploads/2019/10/background3-1.png) no-repeat !important;
-    background-size: cover;
+    background-size: 100% !important;
     top: -100%;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    -webkit-animation: spinBackground 60s linear infinite;
-    -moz-animation: spinBackground 60s linear infinite;
-    animation: spinBackground 120s linear infinite;
+    left: 10%;
+    right: 10%;
+    bottom: 10%;
+    -webkit-animation: spinBackground 80s linear infinite;
+    -moz-animation: spinBackground 80s linear infinite;
+    animation: spinBackground 80s linear infinite;
+    opacity: 0.7;
 }
 
 
