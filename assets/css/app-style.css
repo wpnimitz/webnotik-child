@@ -145,6 +145,45 @@
     -webkit-animation-name: runRight;
 }
 
+
+.browser:before {
+    content: "";
+    position: absolute;
+    background: white;
+    height: 30px;
+    top: -32px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom: 2px solid #222;
+}
+
+.browser:after {
+    content: "https://yourwebsiteaddress.com";
+    font-size: 13px;
+    line-height: 20px;
+    padding: 2px 6px;
+    color: #7a7a7a;
+    position: absolute;
+    background: #d7d7d7;
+    height: 20px;
+    top: -27px;
+    left: 5px;
+    right: 5px;
+    bottom: 0;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+}
+
+.browser .et_pb_image_wrap {
+    max-height: calc(100vh - 150px);
+    overflow: hidden;
+}
+
+
+
 /** Animations **/
 
 @-webkit-keyframes runLeft {
