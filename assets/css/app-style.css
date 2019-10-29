@@ -91,6 +91,39 @@
 
 
 
+/** OTHER CSS **/
+.block {
+    display: block;
+    width: 100%;
+}
+
+.line {
+    background: #00aeef;
+    width: 80%;
+    max-width: 300px;
+    height: 2px;
+    display: block;
+    margin: 0 auto;
+}
+
+.line:before, .line:after {
+    content: "";
+    width: 5px;
+    height: 2px;
+    position: absolute;
+    background: #00aeef;
+    z-index: 2;
+}
+
+.line:after {
+    left: -10px !important;
+}
+
+.line:after {
+    right: -10px !important;
+}
+
+
 
 
 /** Remove Lines on Sidebar for Single Post **/
