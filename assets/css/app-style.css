@@ -145,6 +145,8 @@
     -webkit-animation-name: runRight;
 }
 
+/** Animations **/
+
 @-webkit-keyframes runLeft {
     0% { left: -20px;}
     50% { left: -10px;}
@@ -163,7 +165,24 @@
     100%{ width: -00%;}
 }
 
+@-moz-keyframes spinBackground { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spinBackground { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spinBackground { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
+
+/** Backgrounds **/
+.animateBG:before {
+    position: absolute;
+    content: "";
+    background: url(https://testingwebsite102.com/wp-content/uploads/2019/10/background2.png)!important;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-animation: spinBackground 4s linear infinite;
+    -moz-animation: spinBackground 4s linear infinite;
+    animation: spinBackground 4s linear infinite;
+}
 
 
 
