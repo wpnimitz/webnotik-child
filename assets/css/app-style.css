@@ -332,3 +332,7 @@
     margin-right: 10px;
 }
 
+
+.et_pb_blurb_content {
+    max-width: 100% !important;
+}
