@@ -109,6 +109,11 @@
     margin-bottom: 30px;
 }
 
+.centerCenter {
+    display: flex;
+    align-items: center;
+}
+
 
 
 .line {
@@ -122,6 +127,14 @@
     -webkit-animation: linear infinite alternate;
     -webkit-animation-duration: 1s;
     -webkit-animation-name: spanLine;
+}
+
+.line.left {
+    margin-left: 30px;
+}
+
+.line.right {
+    margin-right: 30px;
 }
 
 .line:before, .line:after {
